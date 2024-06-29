@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headbox
+{
+    border: solid 1px;
+    height: 160px;
+display: flex;
+}
+#box1,#box2{
+    border:solid 1px;
+    height: 160px;
+}
+#box1{
+    width: 160px;
+}
+#box2{
+    width: 1400px;
+}
+#clgname{
+    font-size: 55px;
+    color: #00008b;
+    text-align: center;
+}
+#ugcautonomous{
+    font-size: 30px;
+    text-align: center;
+    color: #8b0000;
+}
+#text1{
+    font-size: 20px;
+    text-align: center;
+    color: #00002d;
+    font-weight: bold;
+}
+#scrolltxt{
+    font-size: 20px;
+    font-weight: bold;
+    color:#640303;
+    background-color: #00ffff;
+}
+#navbar{
+    border: solid 2px;
+    height: 47px;
+}
+ul li{
+    border: solid 1px;
+    height: 47px;
+    width: 164px;
+    float: left;
+    text-align: center;
+    line-height: 47px;
+    background-color: #bc3a99;
+    margin-right: 2px;
+    
+    
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+    width: 150px;
+}
+ul li:hover ul li{
+    display: block;
+    background-color: #000000;
+    
+
+}
+ul li ul li:hover{
+    background-color: #bc3a99;
+}
+.obox{
+    border: solid 1px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#obox1,#obox2,#obox3{
+    border: solid 1px;
+    height: 300px;
+    z-index: -1;
+}
+#obox1{
+    width: 700px;
+    background-image:url(clg1.jpeg);
+    background-repeat: no-repeat;
+    background-size:700px 300px ;
+    animation-name: imgchange;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+}
+@keyframes imgchange{
+    20%{
+        background-image: url(clg2.jpeg);
+    }
+    40%{
+        background-image: url(clg3.jpeg);
+    }
+    60%{
+        background-image: url(clg4.jpeg);
+    }
+    80%{
+        background-image: url(clg5.jpg);
+    }
+    100%{
+        background-image: url(clg6.jpg);
+    }
+}
+#obox2{
+    width: 500px;
+  
+}
+#obox3{
+    width: 400px;
+}
+#name1{
+    text-align: center;
+    color: #640303;
+    font-size: 20px;
+}
+#pbox{
+    border: solid 1px;
+    height: 200px;
+    text-align: center;
+}
+#placement{
+    height: 100px;
+    width: 200p;
+    
+    
+}
